@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: 266beaef91e02644c849a7bbb5d1cfef
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: A_Anchor
+    100002: B_Anchor
+    100004: GripAnchor
+    100006: GripParent
+    100008: //RootNode
+    100010: monterey_controller_R
+    100012: OriginOffset
+    100014: r_A_Slice
+    100016: r_B_Slice
+    100018: r_Controller_Body
+    100020: r_Grip
+    100022: r_Stick_Slice
+    100024: r_Trigger
+    100026: StickAnchor
+    100028: TriggerAnchor
+    400000: A_Anchor
+    400002: B_Anchor
+    400004: GripAnchor
+    400006: GripParent
+    400008: //RootNode
+    400010: monterey_controller_R
+    400012: OriginOffset
+    400014: r_A_Slice
+    400016: r_B_Slice
+    400018: r_Controller_Body
+    400020: r_Grip
+    400022: r_Stick_Slice
+    400024: r_Trigger
+    400026: StickAnchor
+    400028: TriggerAnchor
+    2100000: ControllerPad_Blank
+    2100002: ControllerQuestBase
+    2300000: r_A_Slice
+    2300002: r_B_Slice
+    2300004: r_Controller_Body
+    2300006: r_Grip
+    2300008: r_Stick_Slice
+    2300010: r_Trigger
+    3300000: r_A_Slice
+    3300002: r_B_Slice
+    3300004: r_Controller_Body
+    3300006: r_Grip
+    3300008: r_Stick_Slice
+    3300010: r_Trigger
+    4300000: r_A_Slice
+    4300002: r_B_Slice
+    4300004: r_Controller_Body
+    4300006: r_Stick_Slice
+    4300008: r_Grip
+    4300010: r_Trigger
+    7400000: r_TriggerIdleAnimation
+    7400002: r_TriggerPullAnimation
+    7400004: r_GripIdleAnimation
+    7400006: r_GripPullAnimation
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
