@@ -17,6 +17,7 @@ public class LayserPointer : MonoBehaviour
     public GameObject holoBrush;
     public GameObject wireFrameBrush;
     public GameObject snapShot;
+    public GameObject mirror;
 
     //기능툴Img
     public GameObject brushImg;
@@ -29,6 +30,7 @@ public class LayserPointer : MonoBehaviour
     public GameObject snapShotImg;
     public GameObject saveMeshImg;
     public GameObject butterflyImg;
+    public GameObject mirrorImg;
 
     //기능툴 애니메이션
     public GameObject brushAni;
@@ -41,6 +43,7 @@ public class LayserPointer : MonoBehaviour
     public GameObject snapShotAni;
     public GameObject saveMeshAni;
     public GameObject butterflyAni;
+    public GameObject mirrorAni;
 
 
     //BackGroundUi
@@ -149,6 +152,11 @@ public class LayserPointer : MonoBehaviour
 
         //ColorPicker();
         LaserPlaying();
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            mirror.SetActive(true);
+        }
 
     }
 

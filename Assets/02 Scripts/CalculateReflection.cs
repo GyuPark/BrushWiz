@@ -5,11 +5,11 @@ using UnityEngine;
 public class CalculateReflection
 {
     /// <summary>
-    /// Returns the gradient(a) and the constant(b) of linear equation y = ax+b. 
+    /// 직선의 방정식 y = ax+b의 기울기 a와 y축 접점 b를 반환한다. 
     /// </summary>
-    /// <param name="yRot"></param>
-    /// <param name="x"></param>
-    /// <param name="z"></param>
+    /// <param name="yRot">y축 회전값(localEulerAngle.y)</param>
+    /// <param name="x">x축 포지션(position.x)</param>
+    /// <param name="z">z축 포지션(position.z)</param>
     /// <returns></returns>
     public static Vector2 GetLinearEquation(float yRot, float x, float z)
     {
@@ -23,11 +23,11 @@ public class CalculateReflection
     /// <summary>
     /// 
     /// </summary>
-    /// <param name="gradient">the gradient(a) of linear equation y = ax+b</param>
-    /// <param name="constant">the constant(b) of linear equation y = ax+b</param>
-    /// <param name="x"></param>
-    /// <param name="y"></param>
-    /// <param name="z"></param>
+    /// <param name="gradient">직선의 방정식 y = ax+b의 기울기 a</param>
+    /// <param name="constant">직선의 방정식 y = ax+b의 접점 b</param>
+    /// <param name="x">대칭하고자 하는 위치의 position.x</param>
+    /// <param name="y">대칭하고자 하는 위치의 position.y</param>
+    /// <param name="z">대칭하고자 하는 위치의 position.z</param>
     /// <returns></returns>
     public static Vector3 GetReflection(float gradient, float constant, float x, float y, float z)
     {
